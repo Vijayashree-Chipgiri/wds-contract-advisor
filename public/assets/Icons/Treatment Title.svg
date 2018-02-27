@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Atoms/Icons/Treatment Title</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atoms/Icons/Treatment-Title" stroke="#0982C6">
+            <g transform="translate(1.000000, 1.000000)">
+                <path d="M7.04208696,0.791443478 C8.59993043,1.18274783 9.66970435,2.12438261 9.66970435,3.98608696 C9.66970435,6.61391304 7.5394087,10.0782609 4.91151304,10.0782609 C2.28361739,10.0782609 0.153321739,6.61391304 0.153321739,3.98608696 C0.153321739,2.12438261 1.22316522,1.18267826 2.78093913,0.791443478" id="Shape"></path>
+                <circle id="Oval" cx="13.9229217" cy="4.21906087" r="1.86852174"></circle>
+                <circle id="Oval" stroke-width="0.5" fill="#0982C6" cx="13.9229217" cy="4.21906087" r="1"></circle>
+                <circle id="Oval" fill="#0982C6" cx="3.3024" cy="0.77933913" r="1"></circle>
+                <circle id="Oval" fill="#0982C6" cx="6.52069565" cy="0.77933913" r="1"></circle>
+                <path d="M4.87944348,9.71937391 L4.87944348,11.6964174 C4.87944348,13.9516522 6.97314783,15.8755478 9.25982609,15.8755478 L9.69787826,15.8755478 C11.9845565,15.8755478 13.9229913,13.9516522 13.9229913,11.6964174 L13.9229913,4.95582609" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

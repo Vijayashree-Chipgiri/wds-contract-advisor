@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Atoms/Icons/Send</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atoms/Icons/Send" fill="#F8971F">
+            <g>
+                <path d="M15.2,7.2004 C15.5904,7.2004 15.924,6.9188 15.9888,6.534 C16.0536,6.1492 15.8304,5.7732 15.4616,5.6452 L1.0616,0.7204 C0.744,0.6108 0.3904,0.7124 0.1792,0.9732 C-0.0328,1.2332 -0.0592,1.5996 0.1144,1.8876 L3.0688,6.8124 C3.2136,7.0524 3.4736,7.2004 3.7544,7.2004 L15.2,7.2004 Z" id="Fill-53"></path>
+                <path d="M3.75472,8.8004 C3.47312,8.8004 3.21312,8.9492 3.06912,9.1884 L0.11392,14.114 C-0.05968,14.4012 -0.03248,14.7684 0.17872,15.0292 C0.39072,15.2892 0.74352,15.39 1.06192,15.2804 L15.46192,10.3564 C15.83072,10.2292 16.05392,9.8524 15.98912,9.4676 C15.92432,9.082 15.59072,8.8004 15.20032,8.8004 L3.75472,8.8004 Z" id="Fill-54"></path>
+            </g>
+        </g>
+    </g>
+</svg>

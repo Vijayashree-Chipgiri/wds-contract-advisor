@@ -1,0 +1,38 @@
+{
+	"name": "wds-contract-advisor",
+	"version": "1.0.0",
+	"description": "Contract Advisor project using node.js",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "nodemon server.js",
+		"debug": "nodemon --inspect server.js",
+		"test": "set NODE_ENV=test&& grunt",
+		"debug-test": "set NODE_ENV=test&& nodemon --inspect mocha-run.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.18.2",
+		"cfenv": "^1.0.4",
+		"chai": "*",
+		"dotenv": "^4.0.0",
+		"ejs": "^2.4.2",
+		"express": "^4.13.4",
+		"grunt": "^1.0.1",
+		"grunt-mocha": "^1.0.4",
+		"grunt-mocha-test": "^0.13.2",
+		"lodash": "^4.17.5",
+		"mocha": "*",
+		"node-rest-client": "^3.1.0",
+		"sinon": "^2.3.5",
+		"watson-developer-cloud": "^2.42.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.11.0"
+	},
+	"engines": {
+		"npm": "2.x",
+		"node": "6.7"
+		
+	},
+	"private": true
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="9px" viewBox="0 0 5 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Atoms/Icons/Chevron</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atoms/Icons/Chevron" fill="#F8971F">
+            <polygon transform="translate(2.500000, 4.054054) rotate(-90.000000) translate(-2.500000, -4.054054) " points="5.60810811 1.55405405 2.5 4.66216216 -0.608108108 1.55405405 -1.55405405 2.5 2.5 6.55405405 6.55405405 2.5"></polygon>
+        </g>
+    </g>
+</svg>

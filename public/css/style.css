@@ -1,0 +1,774 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+ abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+} */
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+/*-------------------------------------------------------*/
+/* General Stylesheets
+/*-------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Graphik-Medium';
+  src: url('../fonts/Graphik-Medium-Web.eot') format('eot'),
+       url('../fonts/Graphik-Medium-Web.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Graphik-Regular';
+	src: url('../fonts/Graphik-Regular-Web.eot') format('eot'),
+       url('../fonts/Graphik-Regular-Web.woff') format('woff');
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Graphik-Regular',Serif;
+  font-size: 14px;
+  letter-spacing: -0.47px;
+  line-height: 18px;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+ /* background: linear-gradient(-225deg, #008CFF 0%, #00BAFF 100%); */
+  outline: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: #2C3034;
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+	height: 120px;
+    width: 100%;
+    background-color: #FFFFFF;
+	position: absolute;
+	z-index=-2;
+}
+
+.bottom {
+  background-color: #0982C6;
+}
+
+.bottom p {
+  font-family: Graphik-Regular;
+  color: white;
+  font-size: 14px;
+  font-weight: regular;
+  padding-top: 14px;
+  padding-left: 30px;
+}
+
+.section-wrap { padding: 60px 0 4px; overflow: hidden;   background: url('../assets/Background.png');    background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  background-repeat: no-repeat; }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		.top {
+		height: 70px;
+	}
+    .section-wrap {
+
+		padding: 35px 0 4px;
+    }
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 600px) {
+		.top {
+		height: 80px;
+	}
+    .section-wrap {
+		padding: 40px 0 4px;
+    }
+}
+
+
+@media only screen and (min-device-width : 601px) and (max-device-width : 991px) {
+	.top {
+		height: 100px;
+	}
+    .section-wrap {
+		padding: 50px 0 4px;
+    }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Graphik-Regular',Serif;
+  margin-top: 0;
+  letter-spacing: 0em;
+  font-weight: Normal;
+  line-height: 1.5;
+  }
+
+.header_quick_reference {
+	font-family: Graphik-Medium;
+	font-size: 18px;
+	font-weight: Normal;
+	letter-spacing: 0;
+	line-height: 22px;
+	color: #008CFF;
+	padding-left:0px;
+	text-align:left;
+
+}
+.header_claim_demographics {
+	font-family: Graphik-Medium;
+	font-size: 18px;
+	font-weight: Normal;
+	letter-spacing: 0;
+	line-height: 22px;
+	color: #008CFF;
+}
+
+.panel-heading {
+	font-family: Graphik-Regular;
+	font-weight: Normal;
+	font-size: 15px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 21px;
+	background-color: #0982C6;
+
+
+}
+#chkbx {
+	margin-left:10px;
+}
+p {
+	font-family: Graphik-Regular;
+	font-size: 14px;
+	letter-spacing: -0.47px;
+	line-height: 18px;
+}
+.pcolor {
+	color:#45D055;
+}
+@media screen and (min-width : 992px) {
+
+
+#close-one {
+	padding-right: 0px;
+	-moz-box-shadow: 10px 0px 5px -2px rgba(0,0,0,0.09) ;
+	box-shadow:10px 0px 5px -2px rgba(0,0,0,0.09) ;
+	-webkit-box-shadow: 10px 0px 5px -2px rgba(0,0,0,0.09) ;
+	z-index:1000;
+}
+
+#close-two {
+	padding-left: 0px;
+}
+
+}
+
+.panel-heading {
+
+  overflow:hidden;
+}
+
+.panel-body {
+	  display: block;
+  width: 100%;
+      padding: 10px;
+  padding-right:30px;
+  padding-left:30px;
+  height: 82.3vh;
+  overflow-y:auto;
+  background: rgba(0,0,0,0.04);
+}
+
+
+.panel.panel-primary.lgth {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 90vh;
+  margin-bottom:0px;
+  border: none;
+}
+.heading-line:after {
+  content: "";
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  border-bottom: 2px solid #edf0f0;
+}
+
+.subheading {
+  font-family: 'Graphik-Regular', Serif;
+  font-size: 12px;
+  color: #f36b21;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+.section{
+  padding-top: 100px;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+
+.blue-head {
+	width: 100%;
+    background: blue;
+    color: #fff;
+    font-size: 12px;
+    padding: 14px;
+    text-align: center;
+}
+
+.box-fill {
+	padding:10px 10px;
+	margin:2px;
+	background: #FFFFFF;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+	border-radius: 6px;
+	font-family: Graphik-Regular;
+	font-weight:1px;
+	font-size: 14px;
+	color: #2C3034;
+	letter-spacing: -0.47px;
+	line-height: 18px;
+	margin-bottom:10px;
+}
+
+.box-fill a {
+  margin-left: 0 !important;
+}
+
+
+.text-fill {
+	background-color:white;
+	color:black;
+	margin:10px;
+	border-bottom : 1px solid #BFBFBF;
+	font-weight:1px;
+}
+
+.text-fill p {
+	margin-top : 15px !important;
+	margin-bottom : 5px !important;
+}
+form {
+	 font-family: 'Graphik-Regular',Serif;
+	 font-size: 15px;
+	color: #96A6B3;
+	line-height: 21px;
+	opacity: 0.65;
+  /* This bit sets up the horizontal layout */
+	display:flex;
+	flex-direction:row;
+
+  /* This bit draws the box around it */
+	border-top:1px solid grey;
+	padding:2px !important;
+
+}
+
+#btn-input {
+  /* Tell the input to use all the available space */
+  flex-grow:2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border:none;
+
+	font-family: Graphik-Medium;
+	font-size: 15px;
+	color: #0068BF;
+	letter-spacing: -0.5px;
+	line-height: 21px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10px
+}
+
+::-webkit-input-placeholder { /* Chrome */
+	opacity: 0.65;
+	color: #96A6B3;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	opacity: 0.65;
+	color: #96A6B3;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	opacity: 0.65;
+	color: #96A6B3;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+	opacity: 0.65;
+	color: #96A6B3;
+}
+
+
+
+button {
+  /* Just a little styling to make it pretty */
+  background: transparent;
+  border: none;
+}
+.center {
+	font-family: Graphik-Regular;
+	position: absolute;
+	background-color:#F8971F;
+    border-radius: 25px;
+
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+	/*top: 90%; */
+	color: #FFFFFF;
+	bottom: 10px;
+	letter-spacing: 0.02px;
+	outline: none;
+
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .center {
+
+		left: 25.5%
+    }
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 600px) {
+    .center {
+		left: 31%
+    }
+}
+
+
+@media only screen and (min-device-width : 601px) and (max-device-width : 991px) {
+    .center {
+		left: 38%
+    }
+}
+
+@media only screen and (min-device-width : 992px) and (max-device-width : 1200px) {
+    .center {
+		left: 25%
+    }
+}
+
+@media only screen and (min-device-width : 1201px) and (max-device-width : 1500px) {
+    .center {
+		left: 27%
+    }
+}
+
+.services i {
+  font-size: 14px;
+  line-height: 1;
+  color: #f36b21;
+  z-index: 2;
+}
+
+.services.style-2 h1 {
+
+  font-size: 70px;
+  font-size: 10vmin;
+  color: #0982C6;
+
+}
+
+.services.style-2 h2 {
+  color: #0982C6;
+}
+
+.services.style-2 h3 {
+  color: #0982C6;
+}
+
+.services.style-2 p {
+  margin: 0 0;
+}
+
+.services.style-2 .service-item-box {
+  padding: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 1px rgba(72, 78, 85, 0.10);
+  text-align: left;
+  background-color: #fff;
+}
+
+.services.style-2 .service-item-box h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.services.style-2 .service-item-box h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.services .service-item-box h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+ .panel-body a {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 14px;
+  color: #0982C6;
+  letter-spacing: 0;
+}
+
+#icon-direction i {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+/* ChatBox Styles */
+
+.chat-window{
+    bottom:0;
+    float:right;
+    margin-left:10px;
+}
+.chat-window > div > .panel{
+    border-radius: 5px 5px 0 0;
+}
+.icon_minim{
+    padding:2px 10px;
+}
+.msg_container_base{
+  background: white;
+  margin: 0;
+  padding: 0 30px 10px;
+  height: 75vh;
+  overflow-x:hidden;
+}
+.top-bar {
+  background-color: #56B948;
+  color: white;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.msg_receive{
+ /* padding-left:0;
+    margin-right:0;
+	background: white;
+	color: #0068BF;
+	border-radius: 0px 15px 15px 15px; */
+ 	background: #0982C6;
+	border-radius: 0 10px 10px 10px;
+	font-family: Graphik-Regular;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: -0.47px;
+	line-height: 18px;
+
+}
+.msg_sent{
+  /* padding-bottom:20px !important; */
+  /*  margin-right:0;
+	background: #0068BF;
+	color: white;
+	border-radius: 15px 0px 15px 15px; */
+	font-family: Graphik-Regular;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: -0.47px;
+	line-height: 18px;
+	background: #56B948;
+	border-radius: 0 10px 0 0;
+	padding:10px;
+	text-align: center;
+}
+.messages {
+  padding: 10px;
+  border: 1px solid #ccc;
+ /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); */
+  max-width:100%;
+  display: inline-block;
+}
+.messages > p {
+	font-family: Graphik-Regular;
+	line-height: 18px;
+    margin: 0 0 0.2rem 0;
+  }
+
+.space {
+	padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.messages > time {
+    font-size: 11px;
+    color: #ccc;
+}
+.msg_container {
+    padding: 7.5px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    display: flex;
+}
+img {
+    display: block;
+	height: 24px;
+	width:  24px;
+}
+
+.snd {
+	display: block;
+	width:16px;
+	height:16px;
+}
+
+.bot {
+	display: block;
+	width:24px;
+	height:24px;
+}
+.avatar {
+    position: relative;
+}
+.base_receive > .avatar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid #FFF;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.base_receive {
+	 justify-content: flex-end;
+}
+
+.base_sent  {
+  justify-content: flex-end;
+          display: table;
+}
+.base_sent > .avatar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid white;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    box-shadow: 1px 1px 2px rgba(black, 0.2); // not quite perfect but close
+}
+
+time {
+		display: flex;
+		justify-content: center; /* align horizontal */
+		align-items: center; /* align vertical */
+		ont-family: Graphik-Medium;
+		font-size: 10px;
+		color: #9B9B9B;
+}
+.msg_sent > time{
+    float: right;
+}
+
+
+/* tell the container's children to float left: */
+.float-my-children > * {
+    float:left;
+    margin-right:5px;
+}
+
+/* this is called a clearfix. it makes sure that the container's children floats are cleared, without using extra markup */
+
+.clearfix {
+    *zoom:1 /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+#data {
+		font-family: 'Graphik-Regular',Serif;
+		font-size: 15px;
+		color: #96A6B3;
+		line-height: 21px;
+		opacity: 0.65;
+  /* This bit sets up the horizontal layout */
+		display:flex;
+		flex-direction:row;
+
+  /* This bit draws the box around it */
+		border-top:1px solid grey;
+		padding:2px !important;
+	    position: absolute;
+
+		bottom: 0px;
+		width: 100%;
+		left: 0;
+}
+/* end clearfix*/
+
+.icns {
+	float:left;
+    display: block;
+	vertical-align: middle;
+	margin-right:10px;
+}
+
+.logo {
+	float:left;
+    display: block;
+    height: 34px;
+	width: 167px;
+	vertical-align: middle;
+	margin-bottom: 0.6em;
+}
+
+.foot {
+	    vertical-align: middle;
+		padding-left : 3%;
+		margin-top:1% !important;
+
+}
+
+.foot-text {
+	padding-left: 10px;
+	vertical-align: middle;
+	font-family: Graphik-Medium;
+	font-size: 16px;
+	color: #0982C6;
+	letter-spacing: 0;
+}
+
+
+.tp {
+	display:inline;
+	vertical-align: middle;
+	font-family: Graphik-Medium;
+	font-size: 16px;
+	color: #0982C6;
+	letter-spacing: 0;
+	position: absolute;
+	right: 5%;
+}
+@media only screen and (min-device-width : 100px) and (max-device-width : 400px) {
+    .foot-text {
+		font-size: 10px;
+    }
+	.tp {
+		font-size: 10px;
+	}
+}
+label {
+	font-family: Graphik-Regular;
+    display: inline-block;
+    position: relative; /* needed for checkbox absolute positioning */
+	  font-size: 14px;
+	  color: #2C3034;
+  font-weight: normal;
+  line-height: 18px;
+  letter-spacing: -0.47px;
+}
+
+label > input[type="checkbox"] {
+    display: block;
+    position: absolute; /* remove it from the flow */
+    width: 100%;
+    height: 100%;
+    margin: -.5rem; /* negative the padding of label to cover the "button" */
+    cursor: pointer;
+    opacity: 0; /* make it transparent */
+    z-index: 666; /* place it on top of everything else */
+}
+
+label > input[type="checkbox"] + span {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid #FFFFFF;
+	outline-style: solid;
+	outline-color: #ccc;
+    outline-width: 1px;
+    margin-right: 1rem;
+}
+
+label > input[type="checkbox"]:checked + span {
+    background-color: #56B948;
+}
+
+::-webkit-scrollbar-track
+{
+
+	background-color: none;
+}
+
+::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: none;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background: #D8D8D8;
+	border-radius: 100px;
+}
+
+
+.answerText{
+	color:#45D055;
+	padding-top:5px;
+}
+a {
+                color: #F8971F
+}
+a:visited {
+                color: #F8971F
+}
+a.morelink {
+                text-decoration:none;
+                outline: none;
+}
+.morecontent span {
+                display: none;
+}
+.comment {
+                margin: 10px;
+}

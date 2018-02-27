@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+ abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+} */
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+@font-face {
+  font-family: 'Graphik-Medium';
+  src: url('../fonts/Graphik-Medium-Web.eot') format('eot'),
+       url('../fonts/Graphik-Medium-Web.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Graphik-Regular';
+	src: url('../fonts/Graphik-Regular-Web.eot') format('eot'),
+       url('../fonts/Graphik-Regular-Web.woff') format('woff');
+}
+
+body{
+	/*background-image: linear-gradient(-225deg, #008CFF 0%, #00BAFF 100%); */
+	background: #008CFF;
+	font-family: 'Graphik-Regular', Fallback, sans-serif;
+}
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.Absolute-Center.is-Responsive {
+  width: 92%;
+  height: 70%;
+  min-width: 200px;
+  max-width: 500px;
+  padding: 40px 60px 40px 40px;
+}
+
+
+
+.media {
+
+}
+
+.logo {
+	float:center;
+    display: block;
+    height: 34px;
+	width: 167px;
+	vertical-align: middle;
+	margin-bottom: 0.6em;
+}
+
+.foot {
+	    vertical-align: middle;
+		padding-left : 14%;
+		margin-top:1% !important;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+
+}
+
+.foot-text {
+	padding-left: 10px;
+	vertical-align: middle;
+	font-family: Graphik-Medium;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+.Absolute-Center .logn {
+	display: block;
+    width: 100%;
+    padding: 5px 12px;
+	margin: 15px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: transparent;
+    background-image: none;
+    border-bottom: 1px solid #45B4FF;
+}
+
+.Absolute-Center .logn p {
+	font-family: 'Graphik-Medium',Fallback;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	letter-spacing: 0;
+	background-color : transparent;
+	text-align:left;
+	margin: 10px 0px 0px -10px;
+
+}
+
+.Absolute-Center .logn .inp {
+	width:100%;
+	font-family: 'Graphik-Medium',Fallback;
+	font-size: 14px;
+	color: #FFFFFF !important;
+	letter-spacing: -0.47px;
+	line-height: 18px;
+	border: none;
+	text-align:left;
+	padding: 10px 0px 0px;
+	margin:  0px 0px 0px -9.5px;
+	opacity: 0.52;
+	font-family: OpenSans-Semibold;
+	border:none;
+	background-image: linear-gradient(0deg, #57A5EF 0%, #297DC6 79%);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+	box-shadow: none;
+	background:transparent;
+	border-radius:0px;
+	font:inherit;
+}
+
+::-webkit-input-placeholder {
+    color:#FFFFFF;
+}
+
+::-moz-placeholder {
+    color:#FFFFFF;
+}
+
+::-ms-placeholder {
+    color:#FFFFFF;
+}
+
+::placeholder {
+    color:#FFFFFF;
+}
+
+.Absolute-Center a {
+	font-family: 'Graphik-Medium',Fallback;
+	position: absolute;
+	font-size: 14px;
+	color: white;
+	opacity: 0.69;
+
+}
+
+#btun {
+	font-family: 'Graphik-Regular',Fallback;
+	position: absolute;
+	background-color:#F8971F;
+    border-radius: 25px;
+    border: 2px solid #008CFF;
+    text-align: center;
+    font-size: 14px;
+	color: #FFFFFF;
+}
+
+@media only screen and (min-device-width : 310px) and (max-device-width : 375px) {
+
+	.Absolute-Center #btun {
+		width: 39vw;
+		height: 6vh;
+		top: 112%;
+		left: 28.5%;
+	}
+
+	    .Absolute-Center a {
+			right:24%;
+			bottom:-47%;
+    }
+
+}
+
+@media only screen and (min-device-width : 376px) and (max-device-width : 481px) {
+
+	.Absolute-Center #btun {
+		width: 39vw;
+		height: 6vh;
+		top: 112%;
+		left: 28.5%;
+	}
+
+	    .Absolute-Center a {
+			right: 27%;
+			bottom:-47%;
+    }
+
+}
+
+@media only screen and (min-device-width : 482px) and (max-device-width : 600px) {
+
+	.Absolute-Center #btun {
+		width: 40vw;
+		height: 7vh;
+		top: 117%;
+		left: 28.5%;
+	}
+    .Absolute-Center a {
+			right: 30%;
+			bottom: -58%;
+    }
+}
+
+
+@media only screen and (min-device-width : 601px) and (max-device-width : 991px) {
+
+	.Absolute-Center #btun {
+		width: 170px;
+		height: 7vh;
+		top: 119%;
+		left: 29.5%;
+	}
+
+    .Absolute-Center a {
+			right:32%;
+			bottom:-61%;
+    }
+}
+
+@media only screen and (min-device-width : 992px) and (max-device-width : 1200px) {
+
+	.Absolute-Center #btun {
+		width: 170px;
+		height: 40px;
+		top: 107%;
+		left: 29.5%;
+	}
+
+
+    .Absolute-Center a {
+		right:28%;
+		bottom:-39%;
+    }
+}
+
+@media only screen and (min-device-width : 1201px) and (max-device-width : 1500px) {
+
+	.Absolute-Center #btun {
+		width: 170px;
+		height: 40px;
+		top: 107%;
+		left: 29.5%;
+	}
+
+    .Absolute-Center a {
+
+		right:28%;
+		bottom:-39%;
+    }
+}

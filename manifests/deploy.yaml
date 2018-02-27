@@ -1,0 +1,17 @@
+---
+ apiVersion: extensions/v1beta1
+ kind: Deployment
+ metadata:
+   name: contract-advisor-nodejs-app-site
+ spec:
+   replicas: 1
+   template:
+     metadata:
+       labels:
+         app: web
+     spec:
+       containers:
+         - name: contract-advisor-nodejs-front-end
+           image: nodejs-contract-advisor
+           ports:
+             - containerPort: 80

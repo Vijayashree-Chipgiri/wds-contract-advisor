@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Atoms/Icons/Client Name</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Atoms/Icons/Client-Name" stroke="#0982C6">
+            <g transform="translate(1.000000, 1.000000)" id="Shape">
+                <polygon points="0.400626087 0 2.92535652 0 3.51881739 16 0.0230956522 16"></polygon>
+                <polygon points="3.27248696 9.44897391 7.65217391 6.80953043 7.65217391 16 3.51881739 16"></polygon>
+                <polygon points="7.65217391 9.36382609 11.826087 6.80953043 11.826087 16 7.65217391 16"></polygon>
+                <polygon points="11.826087 9.36382609 16 6.80953043 16 16 11.826087 16"></polygon>
+                <path d="M5,10.3498435 L5,11.2240696"></path>
+                <path d="M10,10.3498435 L10,11.2240696"></path>
+                <path d="M14,10.3498435 L14,11.2240696"></path>
+            </g>
+        </g>
+    </g>
+</svg>
