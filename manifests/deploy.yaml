@@ -12,6 +12,6 @@
      spec:
        containers:
          - name: contract-advisor-nodejs-front-end
-           image: nodejs-contract-advisor
+           image: contract-advisor-nodejs-app
            ports:
              - containerPort: 80
